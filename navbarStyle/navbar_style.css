@@ -1,6 +1,22 @@
 body{
     margin: 0px;
     padding: 0px;
+
+    box-sizing: border-box;
+}
+
+#NavbarDNA{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    height: 64px;
+    background: #ffde2f;
+
 }
 #NavbarDNA{
     background-color: #ffde2f;
@@ -12,11 +28,15 @@ body{
     height: 64px;
     box-shadow: 0 2px 8px 1px rgb(0 0 0 / 20%);
     border-bottom: 1px solid #d3d4de
+
 }
 #DNA{
     height: 40px;
     vertical-align: middle;
     border-style: none;
+
+    margin-left: 60px;
+
 }
 a{
     text-decoration: none;
@@ -24,6 +44,9 @@ a{
 }
 #searchIcon{
     display: flex;
+
+    margin-right: 80px;
+
 }
 #hindi{
     display: inline-block;
@@ -33,7 +56,11 @@ a{
     color: #000;
     font-size: 12px;
     font-weight: 600;
+
+    margin-left: 50px;
+
     margin-left: 25px;
+
     position: relative;
     top: 1px;
 }
@@ -41,6 +68,9 @@ a{
     font-family: 'Roboto Slab',sans-serif;
     display: flex;
     margin: 20px;
+
+    margin-top: 80px;
+
     background-color: rgb(53, 52, 52);
     height: 50px;
     font-size: 15px;
@@ -65,6 +95,14 @@ a{
     padding-left: 10px;
     text-align: left;
     color: aliceblue;
+
+    
+}
+#Part2>p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+
 }
 #websiteDetails{
     width: 97%;
@@ -75,10 +113,18 @@ a{
     flex-wrap: wrap;
     width: 25%;
     cursor: pointer;
+
+    margin-left: 40px;
+}
+#landingPageNews{
+    width: 50%;
+    /* border: 1px solid red; */
+
 }
 #landingPageNews{
     width: 50%;
     border: 1px solid red;
+
     height: auto;
 }
 #rightSide{
@@ -96,6 +142,11 @@ a{
     padding-left: 12px; 
     font-size: 17.5px;
 }
+
+#menu-item:hover{
+    background-color:#ffde2f;
+}
+
 #footer{
     margin-top: 25px;
     background: #1c1c1c;
