@@ -3,10 +3,8 @@
     padding: 0px;
 }
 
-body{
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
+#aj_webpage_cont{
+    display: flex;   
 }
 
 .aj_news>a{
@@ -69,7 +67,7 @@ body{
 }
 #aj_middile_cont{
     border: 1px solid blue;
-    width: 700px;
+    width: 50%;
     background-color: #f5f5f5;
     display: flex;
      flex-direction: column;
@@ -96,4 +94,9 @@ body{
 
 #aj_m-sec-title>h1{
     text-decoration: underline;
+}
+
+#slide{
+    display: flex;
+    align-items: center;
 }

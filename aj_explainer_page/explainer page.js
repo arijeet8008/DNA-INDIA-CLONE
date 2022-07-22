@@ -1,5 +1,14 @@
 // //https://newsapi.org/v2/everything?q=entertainment&from=2022-06-20&sortBy=publishedAt&apiKey=f155665b2d7a42669a2a632571433c3d
 
+import navbar from "../component/navber.js"
+    document.getElementById("NavbarDNA").innerHTML = navbar()
+
+import left_side from "../component/leftSide.js"
+    document.getElementById("left_menu").innerHTML = left_side()    
+
+    import footer from "../component/footer.js"
+    document.getElementById("footer").innerHTML = footer()
+
 let slideshow_1= ()=>{
     let images=["https://cdn.dnaindia.com/sites/default/files/styles/half/public/2021/09/14/996199-brahmos-4.jpg",
     "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2021/09/02/994192-martinsville-seven-1.jpg"
@@ -44,3 +53,4 @@ setInterval(()=>{
 }
 
 slideshow_2()
+
