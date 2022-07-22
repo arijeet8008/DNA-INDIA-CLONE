@@ -1,27 +1,10 @@
 body{
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
     background-color:#f8f9fa;
-=======
 
-    box-sizing: border-box;
 }
 
-#NavbarDNA{
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4px 0;
-    height: 64px;
-    background: #ffde2f;
-
->>>>>>> aa724d65f652b409350ff84da2b4908e7d898df7
-}
 #NavbarDNA{
     background-color: #ffde2f;
     position: relative;
@@ -39,7 +22,7 @@ body{
     vertical-align: middle;
     border-style: none;
 
-    margin-left: 60px;
+    margin-left: 1px;
 
 }
 a{
@@ -48,9 +31,7 @@ a{
 }
 #searchIcon{
     display: flex;
-
-    margin-right: 80px;
-
+    margin-right: 1px;
 }
 #hindi{
     display: inline-block;
@@ -60,21 +41,16 @@ a{
     color: #000;
     font-size: 12px;
     font-weight: 600;
-
     margin-left: 50px;
-
     margin-left: 25px;
-
     position: relative;
     top: 1px;
 }
 #slide{
     font-family: 'Roboto Slab',sans-serif;
     display: flex;
-    margin: 20px;
-
-    margin-top: 80px;
-
+    margin: 50px 0px;
+    margin-left: 40px;
     background-color: rgb(53, 52, 52);
     height: 50px;
     font-size: 15px;
@@ -117,8 +93,7 @@ a{
     flex-wrap: wrap;
     width: 25%;
     cursor: pointer;
-
-    margin-left: 40px;
+    margin-left: 20px;
 }
 #landingPageNews{
     width: 50%;
@@ -127,11 +102,6 @@ a{
 }
 #landingPageNews{
     width: 50%;
-<<<<<<< HEAD
-=======
-    border: 1px solid red;
-
->>>>>>> aa724d65f652b409350ff84da2b4908e7d898df7
     height: auto;
 }
 #rightSide{
@@ -227,7 +197,7 @@ a.nav-link {
     color: #8e8e8e;
     margin: 0;
 }
-*, ::after, ::before {
+*{
     box-sizing: border-box;
 }
 .footer-box {
