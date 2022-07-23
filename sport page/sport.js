@@ -1,5 +1,37 @@
 
-    
+import navbar from "./component/navber.js"
+document.getElementById("NavbarDNA").innerHTML = navbar()
+import left_side from "./component/leftSide.js"
+document.getElementById("left_menu").innerHTML = left_side()
+import footer from "./component/footer.js"
+document.getElementById("footer").innerHTML = footer()
+import right_views from "./component/rightSide.js"
+document.getElementById("rightSide").innerHTML = right_views()
+
+
+
+const navbar_slide_show = [
+                    "CBSE Board Results 2022 LIVE: Class 12 Term 2 scores announced, over 1.34 lakh students score above 90%",
+                    "Ranveer Singh nude photoshoot: Mimi Chakraborty questions gender equality, says 'wonder if...'",
+                    "Who is Eldhose Paul, Indian triple jumper who made history by qualifying for World Athletics Championships?",
+                    "NCR weather update: Rain, thundershowers in Delhi, adjacent cities over the weekend, check complete IMD forecast"
+                    ]
+let slideshow = () =>{
+
+let latest_news = document.getElementById("Part2")
+let i =0
+setInterval(function(){
+    if(i===navbar_slide_show.length)
+    {
+        i = 0
+    }
+    latest_news.innerText = navbar_slide_show[i]
+    i++
+},2000)
+}
+slideshow()    
+
+
 const data=[
     {
         img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524025-fotojet.jpg",
