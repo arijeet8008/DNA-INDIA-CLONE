@@ -5,8 +5,422 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
+    <style>
+        #arrow{
+            display: flex;
+            font-size: 12px;
+            gap: 10px;
+            padding-bottom: 0;
+        }
+        a{
+            color:#8e8e8e; 
+        }
+        h4{
+            font-size: 15px;
+            color:#8e8e8e; 
+        }
+        #displayLiveNews{
+            background-color: #1c1c1c;
+            color: #fff;
+            font-size: 13px;
+            padding: 1px 0;
+        }
+        #live_blogs{
+            background-color: rgb(212, 13, 13);
+            padding: 0.5px 5px;
+            text-align: center;
+            border-radius: 10px;
+            width: 15%;
+            font-size: 13px;
+            color: white;
+            margin-left: 8px;
+        }
+        .d-flex {
+            padding: 20px 0px;
+            display: flex!important;
+        }
+        .live-date {
+            width: 40%;
+            color: #2c2d31;
+            font-size: 16px;
+            font-weight: 700;
+            position: relative;
+        
+        }
+        .live-date-line {
+            width: 60%;
+            height: 1px;
+            position: relative;
+            top: 10px;
+            background-color: rgb(112 112 112 / .3);
+        }
+        #live_feed{
+            display: flex;
+        }
+        
+        #feed_circle{
+            width: 10px;
+            height: 10px;
+            background-color: #ff8000;
+            border-radius: 5px;
+        }
+        #feed_line{
+            width: 1px;
+            height: 98%;
+            background-color: #ff8000;
+            margin-left: 4px;
+            margin-right: 20px;
+        }
+        
+        #feed_time{
+            margin-left: 5px ;
+            background-color: #1c1c1c;
+            color: white;
+            height: auto;
+            font-size: 16px;
+            padding: 5px 10px;
+            border-radius: 5px;
+            width: 15%;
+        }
+        #feed_news{
+            color: #2c2d31;
+            font-size: 16px;
+        }
+        #cbsc_result {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            margin-top: 100px;
+            width: 100%;
+            text-align: center;
+        }
+        #cbsc_result > div{
+            padding: 10px 2px;
+            border: 1px solid #2c2d31;
+            border-radius: 20px;
+            color: black;
+        }
+    </style>
 </head>
 <body>
-    <h1>news</h1>
+
+    <div id="NavbarDNA"></div>
+
+    <div id="slide">
+        <div id="Part1">
+            <p>Top News</p> 
+        </div>
+        <div id="Part2">
+            <p>Presidential Election Results 2022 LIVE: Counting underway in Room 63 of Parliament House to elect new President</p>
+        </div>
+    </div>
+    <div id="websiteDetails">
+      <div id="left_menu"></div>
+      <div id="landingPageNews">
+        <div id="news_page2">
+            <div id="arrow">
+                <div><a href="./index.html">Home</a></div>   
+                <div> >> </div>
+                <div><a href="/">Education</a></div>
+            </div>
+            <div><h1>CBSE Board Results 2022 LIVE: Class 12 Term 2 scores announced, over 1.34 lakh students score above 90%</h1></div>
+            <h3>The Central Board of Secondary Education (CBSE) on Friday declared the results for Class 12 Board examinations.</h3>
+            <h4>Reported By:DNA Web Team| Edited By: DNA Web Team |Source: |Updated: Jul 22, 2022, 10:40 AM IST</h4>
+            <div id="display_kro2"></div>
+            <div id="displayLiveNews"><p>LIVE: CBSE announces Class 12 Term 2 exam results</p></div>
+            <div>
+                <p>The Central Board of Secondary Education on Friday declared its class 12 results in which 92.71 per cent 
+                students have cleared the exam. Girls have outperformed boys by 3.29 per cent, the CBSE said.
+                 Over 33 thousand students have scored marks above 95 per cent while 1.34 lakh students have scored above 90 per
+                  cent, the board said. The much-anticipated results are available 
+                  online on results.cbse.nic.in and cbse.gov.in. A total of 14,35,366 students appeared for CBSE Class 12
+                   Term 1 and Term 2 examinations. The exams were conducted in offline mode for Term 2 from April 26, 2022 to June 15, 2022.
+
+                As students got anxious about the results and took to social media to complain about the alleged
+                 delay in announcement of results for Class 12 Term 2 exams, the Education Ministry recently advised 
+                 them to stay calm and not to lose patience. It said that it takes time to check exam papers so
+                  the result will be declared soon by the board.
+                </p>
+            </div>
+            <div id="live_blogs">
+                <p>LIVE Blog</p>
+            </div>
+            <div class="d-flex mb-2">
+                <span class="live-date">22 Jul 2022</span>
+                <span class="live-date-line">
+                </span>
+            </div>
+            <div id="live_feed">
+                <div>
+                    <div id="feed_circle"></div>
+                    <div id="feed_line"></div>
+                </div>
+                <div id="feed_data"><div id="feed_time">10:32 AM </div>
+                <p><strong>30% weightage to Term 1, 70% to Term 2</strong></p>
+                <p id="feed_news">
+                    30 per cent weightage was given to Term 1 
+                    exams and 70 per cent weightage to Term 2. 
+                    For practical exams, both terms will get
+                     equal weightage.
+                </p>
+            </div>
+                
+            </div>
+            <div id="live_feed">
+                <div>
+                    <div id="feed_circle"></div>
+                    <div id="feed_line"></div>
+                </div>
+                <div id="feed_data"><div id="feed_time">10:29 AM </div>
+                <p><strong>Check region-wise pass per centage here</strong></p>
+                <p id="feed_news">Trivandrum – 98.83% Bengaluru – 98.16% Bengaluru 
+                    – 97.79% Chennai – 97.79% Delhi East
+                     – 96.29% Delhi West – 96.29% Ahmer – 
+                     96.01% Chandigarh – 95.98% Panchkula – 
+                     94.08% Guwahati – 02.06% Patna – 91.20% Bhopal 
+                     – 90.74% Pune – 90.48% Bhubaneswar – 90.37% Noida
+                      – 90.27% Dehradun – 85.39% Prayagraj – 83.71%
+                    </p>
+            </div>
+                
+            </div>
+            <div id="live_feed">
+                <div>
+                    <div id="feed_circle"></div>
+                    <div id="feed_line"></div>
+                </div>
+                <div id="feed_data"><div id="feed_time">10:27 AM </div>
+                <p><strong>Over 1.34 lakh students score above 90%</strong></p>
+                <p id="feed_news">Over 33,000 students scored above
+                     95 per cent, while 1.34 lakh got above 90 per cent.
+                    </p>
+            </div>
+                
+            </div>
+            <div id="live_feed">
+                <div>
+                    <div id="feed_circle"></div>
+                    <div id="feed_line"></div>
+                </div>
+                <div id="feed_data"><div id="feed_time">10:23 AM </div>
+                <p><strong>How to check score on DigiLocker</strong></p>
+                <p id="feed_news">
+                    Students can download their CBSE 
+                    Mark Sheets from DigiLocker. In order to
+                     access their CBSE Result on DigiLocker, 
+                     students need to login using their roll
+                      number and the PIN. The pin has been 
+                      sent to the schools.&nbsp;
+                </p>
+            </div>   
+            </div>
+        </div>
+        <div id="cbsc_result">
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">CBSC 12th Result 2022</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">12th Result 2022</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">cbsc 12th Result 2022</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">Class 12th Result</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">CBSC Class 12th Result</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">CBSC 10th Result 2022</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">CBSC class 10th Result 2022</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">CBSC 10th Result</a></div>
+            <div><a href="https://www.dnaindia.com/topic/cbse-12th-result-2022">cbsc 10th Result 2022</a></div>
+            
+        </div>
+      </div>
+      <div id="rightSide">
+           
+      </div>
+    </div>
+    
+    <div id="footer"></div>
 </body>
 </html>
+
+<script type="module">
+    import navbar from "./component/navber.js"
+    document.getElementById("NavbarDNA").innerHTML = navbar()
+    import left_side from "./component/leftSide.js"
+        document.getElementById("left_menu").innerHTML = left_side()
+    import footer from "./component/footer.js"
+        document.getElementById("footer").innerHTML = footer()
+    import right_views from "./component/rightSide.js"
+    document.getElementById("rightSide").innerHTML = right_views()
+
+    let right_side_data = {
+    "popular_stories" :[
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523771-untitled-design-2022-07-13t193451.521.jpg",
+            "about" : "CISCE ISC Class 12 Result 2022: Marking scheme, how to download here"
+        },
+        
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524088-untitled-design-51.jpg",
+            "about" : "CUSAT Result 2022 released at admissions.cusat.ac.in: Check important details here"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524104-untitled-design-2022-07-17t145605.612.jpg",
+            "about" : "Karnataka CET Result 2022 to be out soon: Website, how to check here"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523771-untitled-design-2022-07-13t193451.521.jpg",
+            "about" : "CISCE ISC Class 12 Result 2022: Marking scheme, how to download here"
+        },
+        
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523688-ayan-mukerji-kesariya-songfile-photos-1.jpg",
+            "about" : "Brahmastra: Ayan Mukerji defends use of 'love storiya' in Kesariya song, says 'didn't find it like elaichi in biryani'"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523941-medicines.jpg",
+            "about" : "Centre planning to cut prices of critical medicines for diabetes, cardiovascular and kidney diseases: Report"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/20/2523771-untitled-design-2022-07-13t193451.521.jpg",
+            "about" : "CISCE ISC Class 12 Result 2022: Marking scheme, how to download here"
+        }
+    ],
+    "most_view":
+    [
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/07/08/2520707-shreya-fi-1.jpg",
+            "about":"The Family Man actress Shreya ..."
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/06/17/2359221-sara-ali-khan.jpg",
+            "about":"Sara Ali Khan looks sizzling h..."
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/05/27/2007952-fotojet-2022-05-27t122144.022.jpg",
+            "about":"6 times Janhvi Kapoor handled ..."
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/05/23/1942850-team-india.jpg",
+            "about":"Sanju Samson to Rahul Tripathi..."
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/06/17/2359221-sara-ali-khan.jpg",
+            "about":"Sara Ali Khan looks sizzling h..."
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/quarter/public/2022/05/23/1942596-gyanvapi-mosque9.jpg",
+            "about":"Rare photo of Gyanvapi complex..."
+        }
+    ],
+    "speed_read":
+    [
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524210-untitled-design-93.png",
+            "about":"Meet Arvind Goyal, Moradabad man who donated his wealth worth Rs 600 crore to UP government top-stories Fire breaks out in"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524207-fire.jpg",
+            "about":"Fire breaks out in Kandi forest area in West Bengal's Murshidabad district"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524205-2415196-untitled-design-70.jpg",
+            "about":"Man on Delhi-bound IndiGo plane claims bomb in bag, flight grounded"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524182-untitled-design-2022-06-28t164615.653.jpg",
+            "about":"CBSE Class 10 Result 2022: From how to check to past year result trends"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524191-2523244-wordle-answer-for-today-1.jpg",
+            "about":"Wordle 398 answer: Here is the Wordle answer for July 22"
+        }
+    ],
+    "most_watch":
+    [
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/16/2522881-racism.jpg",
+            "about":"DNA Exclusive: Brad Hogg talks about racism in cricket, says 'anyone who's racist is not that intelligent'"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/05/2519945-soren-shah.jpg",
+            "about":"DNA Exclusive: Another Maharashtra in offing? Soren-Shah meeting catches eyeballs in Jharkhand"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/06/13/2232844-launch-of-the-trailer-of-bandon-mein-tha-dum.jpg",
+            "about":"Bandon Mein Tha Dum: The IND vs AUS Test series was fought with blood, brains and brawn, says producer Sudip Tewari"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/04/13/1451620-jasprit-bumrah.jpg",
+            "about":"'We keep on fighting,' says Jasprit Bumrah on MI's chances of winning IPL 2022 | Exclusive"
+        },
+        {
+            "image":"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/01/02/1012756-2.png",
+            "about":"DNA Exclusive: Harbhajan Singh claims MS Dhoni, BCCI forced him out of Team India"
+        }
+    ]
+}
+
+let popular = right_side_data.popular_stories
+let mostViewed = right_side_data.most_view
+let speed_read = right_side_data.speed_read
+let mostWatch = right_side_data.most_watch
+
+
+let rightdata = ()=>{
+    popular.forEach(function(el){
+        let append_popular = document.getElementById("right_side_popular_stories")
+        let div = document.createElement("div")
+        div.setAttribute("id","right_speed_read_box")
+        let img = document.createElement("img")
+        img.src = el.image
+        let p = document.createElement("p")
+        p.innerText = el.about
+        console.log(img,p)
+        div.append(img,p)
+        append_popular.append(div)
+    })
+    mostViewed.forEach(function(el){
+        let append_popular = document.getElementById("right_side_most_viewed")
+        let div = document.createElement("div")
+        div.setAttribute("id","right_most_viewed_box")
+        let img = document.createElement("img")
+        img.src = el.image
+        let p = document.createElement("p")
+        p.innerText = el.about
+        console.log(img,p)
+        div.append(img,p)
+        append_popular.append(div)
+    })
+    speed_read.forEach(function(el){
+        let append_popular = document.getElementById("right_side_speed_read_apend")
+        let div = document.createElement("div")
+        div.setAttribute("id","right_speed_read_box")
+        let img = document.createElement("img")
+        img.src = el.image
+        let p = document.createElement("p")
+        p.innerText = el.about
+        console.log(img,p)
+        div.append(img,p)
+        append_popular.append(div)
+    })
+    mostWatch.forEach(function(el){
+        let append_popular = document.getElementById("right_side_most_watched")
+        let div = document.createElement("div")
+        div.setAttribute("id","right_speed_read_box")
+        let img = document.createElement("img")
+        img.src = el.image
+        let p = document.createElement("p")
+        p.innerText = el.about
+        console.log(img,p)
+        div.append(img,p)
+        append_popular.append(div)
+    })
+
+}
+rightdata()
+    let append = ()=>{
+    let data = document.getElementById("display_kro2")
+    
+    let img = document.createElement("img")
+    img.setAttribute("id","headline_news")
+    img.src = "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524237-cbse-class12.jpg"
+    data.append(img)
+}
+append()
+</script>

@@ -1,28 +1,61 @@
+// //https://newsapi.org/v2/everything?q=entertainment&from=2022-06-20&sortBy=publishedAt&apiKey=f155665b2d7a42669a2a632571433c3d
 
-
-import navbar from "./component/navber.js"
+import navbar from "../component/navber.js"
     document.getElementById("NavbarDNA").innerHTML = navbar()
-import left_side from "./component/leftSide.js"
-    document.getElementById("left_menu").innerHTML = left_side()
-import footer from "./component/footer.js"
+
+import left_side from "../component/leftSide.js"
+    document.getElementById("left_menu").innerHTML = left_side()    
+
+    import footer from "../component/footer.js"
     document.getElementById("footer").innerHTML = footer()
-import right_views from "./component/rightSide.js"
+
+    import right_views from "../component/rightSide.js"
     document.getElementById("rightSide").innerHTML = right_views()
 
+let slideshow_1= ()=>{
+    let images=[ "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/20/2523773-maruti-suzuki-grand-vitara.png",
+    "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/15/2522671-bmw-g-310-rr-1.png",
+]
 
+let box=document.getElementById("aj_photo_sec-1");
 
-
-let append = ()=>{
-    let data = document.getElementById("display_kro")
-    
-    let img = document.createElement("img")
-    img.setAttribute("id","headline_news")
-    img.src = "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524237-cbse-class12.jpg"
-    document.getElementById("next_page").innerText = "CBSE Board Results 2022 LIVE: Class 12 Term 2 scores announced, over 1.34 lakh students score above 90%"
-
-    data.append(img)
+let i=0;
+setInterval(()=>{
+    if(i===images.length){
+        i=0
+    }
+    let img =document.createElement("img")
+    img.src=images[i]
+    box.innerHTML=""
+    box.append(img);
+    i++;
+},3000)
 }
-append()
+
+slideshow_1()
+
+let slideshow_2= ()=>{
+    let images=[
+        "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/15/2522587-lalit-modi-cars.png",
+        "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/19/2523586-rice.jpg",
+        "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/19/2523533-untitled-design-33.png"]
+
+let box=document.getElementById("aj_photo_sec-2");
+
+let i=0;
+setInterval(()=>{
+    if(i===images.length){
+        i=0
+    }
+    let img =document.createElement("img")
+    img.src=images[i]
+    box.innerHTML=""
+    box.append(img);
+    i++;
+},3500)
+}
+
+slideshow_2()
 
 let right_side_data = {
     "popular_stories" :[

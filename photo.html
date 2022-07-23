@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News</title>
+    <style>
+        div {
+            border: 1px solid transparent;
+        }
+
+        #main {
+            display: flex;
+
+        }
+
+        hr {
+            margin-top: -15px;
+        }
+
+        #news {
+            background-color: black;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            /* display: flex; */
+            /* height: 100px; */
+            width: 633px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #news>h1{
+            color: white;
+        }
+        #news>p+p{
+            font-size: 22px;
+        }
+
+        #news>p {
+            color: white;        
+            font-size: 20PX;
+            margin-left: 20px;
+
+        }
+        #center {
+          
+            display: grid;
+
+        }
+        #news>img{
+            width: 100%;
+        }
+        #left_sidebar{
+            width: 25%;
+            margin-left: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
+</head>
+
+<body>
+    <div id="navbar"> </div>
+
+    <div id="main">
+        <div id="left_sidebar"></div>
+        <div id="center">
+            <p>Home >> Latest News</p>
+            <h1>LATEST NEWS</h1>
+            <hr>
+        </div>
+        <div id="right_sidebar"></div>
+    </div>
+  
+
+    <div id="footter"></div>
+</body>
+
+</html>
+
+
+<script type="module">
+    import navbar from "./component/navber.js"
+    document.getElementById("navbar").innerHTML = navbar()
+import left_side from "./component/leftSide.js"
+    document.getElementById("left_sidebar").innerHTML = left_side()
+import footer from "./component/footer.js"
+    document.getElementById("footter").innerHTML = footer()
+    import right_views from "./component/rightSide.js"
+    document.getElementById("right_sidebar").innerHTML = right_views()
+
+// let video = JSON.parse(localStorage.getItem("video"));
+
+function append(){
+    let photo1 = JSON.parse(localStorage.getItem("Photo")) || [];
+   let container = document.getElementById("center");
+   console.log(photo1.title)
+   
+    // photo1.forEach(element => {
+        console.log("element")
+        let t1 = document.createElement("h1");
+        t1.innerText= photo1.title;
+
+        let p = document.createElement("p");
+        p.innerText = photo1.title2;
+
+        let  p1 = document.createElement("p");
+        p1.innerText = photo1.description;
+
+        let  p2 = document.createElement("p");
+        p2.innerText = photo1.t1;
+
+        let img = document.createElement("img");
+        img.src = photo1.i1;
+
+        let  p3 = document.createElement("p");
+        p3.innerText = photo1.d1;
+
+
+
+        let  p22 = document.createElement("p");
+        p22.innerText = photo1.t2;
+
+        let img22 = document.createElement("img");
+        img22.src = photo1.i2;
+
+        let  p32 = document.createElement("p");
+        p32.innerText = photo1.d2;
+
+
+
+        let  p23 = document.createElement("p");
+        p23.innerText = photo1.t3;
+
+        let img33 = document.createElement("img");
+        img33.src = photo1.i3;
+
+        let  p33 = document.createElement("p");
+        p33.innerText = photo1.d3;
+
+
+
+        let  p24 = document.createElement("p");
+        p24.innerText = photo1.t4;
+
+        let img44 = document.createElement("img");
+        img44.src = photo1.i4;
+
+        let  p34 = document.createElement("p");
+        p34.innerText = photo1.d4;
+
+
+
+        let  p25 = document.createElement("p");
+        p25.innerText = photo1.t5;
+
+        let img55 = document.createElement("img");
+        img55.src = photo1.i5;
+
+        let  p35 = document.createElement("p");
+        p35.innerText = photo1.d5;
+
+      
+ 
+        let  div = document.createElement("div");
+        div.setAttribute("id","news")
+        div.append(t1,p,p1,p2,img,p3,p22,img22,p32,p23,img33,p33,p24,img44,p34,p25,img55,p35);
+        container.append(div);
+
+    // });
+}
+append()
+</script>

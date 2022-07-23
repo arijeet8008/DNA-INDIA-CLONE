@@ -10,5 +10,4 @@ let navbar=()=>{
     </a>
     `
 }
-
 export default navbar
