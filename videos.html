@@ -31,9 +31,9 @@
             margin-left: 20px;
 
         }
-        #center {
+        /* #center {
             margin: auto;
-        }
+        } */
         button {
             width: 50%;
 
@@ -49,6 +49,13 @@
             font-weight: 700;
             display: block;
             text-align: center;
+        }
+        #left_sidebar{
+            width: 25%;
+            margin-left: 10px;
+        }
+        #navbar{
+            width: 90%;
         }
 
         /* #news>.icon {
@@ -90,6 +97,8 @@ import left_side from "./component/leftSide.js"
     document.getElementById("left_sidebar").innerHTML = left_side()
 import footer from "./component/footer.js"
     document.getElementById("footter").innerHTML = footer()
+    import right_views from "./component/rightSide.js"
+    document.getElementById("right_sidebar").innerHTML = right_views()
 
 
  let videos = [
