@@ -9,8 +9,8 @@ let left_side=()=>{
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">Sports</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">Viral News</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">Lifestyle</a></div>
-    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg" alt="menu icon" width="25"></span><a id="menuList" href="business.html">Business</a></div>
-    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg" alt="menu icon" width="25"></span><a id="menuList" href="world.html">World</a></div>
+    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-business.svg" alt="menu icon" width="25"></span><a id="menuList" href="Business_page/business.html">Business</a></div>
+    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-world.svg" alt="menu icon" width="25"></span><a id="menuList" href="World_page/world.html">World</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png" alt="menu icon" width="25"></span><a id="menuList" href="https://www.ezmall.com/?utm_source=Dnaindia.com&utm_medium=Affiliate&utm_campaign=Dnaindia.com_Traffic" target="_blank">Ezmall</a></div>
 
     `
