@@ -7,7 +7,10 @@ body{
 
 #NavbarDNA{
     background-color: #ffde2f;
-    position: relative;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +24,7 @@ body{
     height: 40px;
     vertical-align: middle;
     border-style: none;
-
     margin-left: 1px;
-
 }
 a{
     text-decoration: none;
@@ -55,6 +56,7 @@ a{
     height: 50px;
     font-size: 15px;
     font-weight: 500;
+    margin-top: 100px;
 }
 #Part1{
     width: 13%;
@@ -69,27 +71,26 @@ a{
     border-bottom-right-radius: 5px;
 }
 #Part2{
-    width: 87%;
+    width: 100%;
     color: #212529;
     position: relative;
     padding-left: 10px;
     text-align: left;
-    color: aliceblue;
-
-    
-}
-#Part2>p{
+    color: aliceblue; 
     justify-content: center;
     align-items: center;
     margin-top: 13px;
-
 }
+
 #websiteDetails{
     width: 97%;
     display: flex;
     margin: auto;
 }
 #left_menu{
+    /* position: absolute; */
+    /* width: 100%; */
+    /* z-index: 999; */
     flex-wrap: wrap;
     width: 25%;
     cursor: pointer;
