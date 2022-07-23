@@ -1,7 +1,7 @@
 let left_side=()=>{
     return ` <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-latestnews.svg" alt="menu icon" width="25"></span><a id="menuList" href="latest.html">Latest News</div></a>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg" alt="menu icon" width="25"></span><a id="menuList" href="photoes.html">Photos</a></div>
-    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg" alt="menu icon" width="25"></span><a id="menuList" href="videos.html">Videos</a></div>
+    <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg" alt="menu icon" width="25"></span><a id="menuList" href="./videos.html">Videos</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">Explainers</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-india.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">India</a></div>
     <div id="menu-item"><span><img src="https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg" alt="menu icon" width="25"></span><a id="menuList" href="/">Entertainment</a></div>
@@ -16,3 +16,4 @@ let left_side=()=>{
 }
 
 export default left_side
+

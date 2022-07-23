@@ -61,20 +61,20 @@
 </head>
 
 <body>
-    <div id="navbar"> </div>
+    <div id="NavbarDNA"> </div>
 
     <div id="main">
-        <div id="left_sidebar"></div>
+        <div id="left_menu"></div>
         <div id="center">
             <p>Home >> Latest News</p>
             <h1>LATEST NEWS</h1>
             <hr>
         </div>
-        <div id="right_sidebar"></div>
+        <div id="rightSide"></div>
     </div>
   
 
-    <div id="footter"></div>
+    <div id="footer"></div>
 </body>
 
 </html>
@@ -82,13 +82,13 @@
 
 <script type="module">
     import navbar from "./component/navber.js"
-    document.getElementById("navbar").innerHTML = navbar()
+    document.getElementById("NavbarDNA").innerHTML = navbar()
 import left_side from "./component/leftSide.js"
-    document.getElementById("left_sidebar").innerHTML = left_side()
+    document.getElementById("left_menu").innerHTML = left_side()
 import footer from "./component/footer.js"
-    document.getElementById("footter").innerHTML = footer()
+    document.getElementById("footer").innerHTML = footer()
     import right_views from "./component/rightSide.js"
-    document.getElementById("right_sidebar").innerHTML = right_views()
+    document.getElementById("rightSide").innerHTML = right_views()
 
 // let video = JSON.parse(localStorage.getItem("video"));
 
