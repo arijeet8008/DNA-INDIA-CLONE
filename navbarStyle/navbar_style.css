@@ -97,8 +97,6 @@ a{
 }
 #landingPageNews{
     width: 50%;
-    /* border: 1px solid red; */
-
 }
 #landingPageNews{
     width: 50%;
@@ -247,6 +245,7 @@ dl, ol, ul {
     /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px; */
 }
 #headline_right_side{
+    margin-top: 30px;
     display: flex;
     color: #313131;
     justify-content: space-between;
@@ -278,6 +277,9 @@ dl, ol, ul {
     width: 40%;
     height: 100px;
     padding-right: 10px;
+}
+#right_side_most_viewed{
+    padding-top: 30px;
 }
 
 
