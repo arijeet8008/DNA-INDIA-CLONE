@@ -1,3 +1,5 @@
+
+
 import navbar from "./component/navber.js"
     document.getElementById("NavbarDNA").innerHTML = navbar()
 import left_side from "./component/leftSide.js"
