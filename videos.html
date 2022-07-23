@@ -7,7 +7,7 @@
     <title>Videos</title>
     <style>
         div{
-            border: 1px solid red;
+            border: 1px solid transparent;
         }
         #main{
             display: flex;
@@ -62,6 +62,7 @@
            line-height: 30px;
         } */
     </style>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
 </head>
 <body>
     <div id="navbar">  </div>
@@ -81,8 +82,14 @@
 </body>
 </html>
 
-<script >
+<script type="module">
 
+import navbar from "./component/navber.js"
+    document.getElementById("navbar").innerHTML = navbar()
+import left_side from "./component/leftSide.js"
+    document.getElementById("left_sidebar").innerHTML = left_side()
+import footer from "./component/footer.js"
+    document.getElementById("footter").innerHTML = footer()
 
 
  let videos = [
@@ -161,9 +168,6 @@ function append(){
         let t = document.createElement("h2");
         t.innerText = element.title;
       
-        // let icon = document.createElement("img");
-        // icon.setAttribute("class","icon")
-        // icon.src = "data:image/jpeg;base64,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";
 
         let  div = document.createElement("div");
         div.setAttribute("id","news")
@@ -179,9 +183,9 @@ function append(){
 }
 append()
 
-let savePhoto = () => {
-   
-    location.href = videos.link;
+let savePhoto = (data) => {
+    localStorage.setItem("Photo", JSON.stringify(data));
+    window.location.href = "video.html";
 };
 
 </script>

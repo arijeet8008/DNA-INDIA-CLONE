@@ -8,7 +8,7 @@
     <title>Latest News</title>
     <style>
         div {
-            border: 1px solid red;
+            border: 1px solid transparent;
         }
 
         #main {
@@ -53,6 +53,7 @@
             width: 100%;
         }
     </style>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
 </head>
 
 <body>
@@ -75,7 +76,13 @@
 </html>
 
 
-<script>
+<script type="module">
+    import navbar from "./component/navber.js"
+    document.getElementById("navbar").innerHTML = navbar()
+import left_side from "./component/leftSide.js"
+    document.getElementById("left_sidebar").innerHTML = left_side()
+import footer from "./component/footer.js"
+    document.getElementById("footter").innerHTML = footer()
 
 // let video = JSON.parse(localStorage.getItem("video"));
 

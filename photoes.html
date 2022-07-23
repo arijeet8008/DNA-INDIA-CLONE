@@ -7,7 +7,7 @@
     <title>Photes</title>
     <style>
               div{
-            border: 1px solid red;
+            border: 1px solid transparent;
         }
         #main{
             display: flex;
@@ -52,6 +52,7 @@
             margin: auto;
         }
     </style>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
 </head>
 <body>
     <div id="navbar">  </div>
@@ -71,10 +72,15 @@
 </body>
 </html>
 
-<script>
-
+<script type="module">
+import navbar from "./component/navber.js"
+    document.getElementById("navbar").innerHTML = navbar()
+import left_side from "./component/leftSide.js"
+    document.getElementById("left_sidebar").innerHTML = left_side()
+import footer from "./component/footer.js"
+    document.getElementById("footter").innerHTML = footer()
     
-photos = [
+ let photos = [
     {
         image:"https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/20/2523871-fotojet-2022-07-20t215825.725-1.jpg",
         title:"Viral Photos of the Day: Janhvi Kapoor, Disha Patani, Tara Sutaria give fashion goals",

@@ -42,6 +42,7 @@
             margin: auto;
         }
     </style>
+    <link rel="stylesheet" href="./navbarStyle/navbar_style.css">
 </head>
 
 <body>
@@ -62,3 +63,15 @@
 </body>
 
 </html>
+
+<script>
+
+function append(){
+    let photo1 = JSON.parse(localStorage.getItem("Photo")) || [];
+
+   window.location.href = photo1.link
+
+}
+
+
+</script>

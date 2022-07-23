@@ -1,0 +1,260 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+#NavbarDNA{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    height: 64px;
+    background: #ffde2f;
+
+}
+#NavbarDNA{
+    background-color: #ffde2f;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 25px;
+    height: 64px;
+    box-shadow: 0 2px 8px 1px rgb(0 0 0 / 20%);
+    border-bottom: 1px solid #d3d4de
+
+}
+#DNA{
+    height: 40px;
+    vertical-align: middle;
+    border-style: none;
+
+    margin-left: 60px;
+
+}
+a{
+    text-decoration: none;
+    background-color: transparent
+}
+#searchIcon{
+    display: flex;
+
+    margin-right: 80px;
+
+}
+#hindi{
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 5px 14px;
+    border-radius: 50px;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+
+    margin-left: 50px;
+
+    margin-left: 25px;
+
+    position: relative;
+    top: 1px;
+}
+#slide{
+    font-family: 'Roboto Slab',sans-serif;
+    display: flex;
+    margin: 20px;
+
+    margin-top: 80px;
+
+    background-color: rgb(53, 52, 52);
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+}
+#Part1{
+    width: 13%;
+    color: #313131;
+    height: 50px;
+    position: relative;
+    display: flex;
+    background-color: #aaa;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+#Part2{
+    width: 87%;
+    color: #212529;
+    position: relative;
+    padding-left: 10px;
+    text-align: left;
+    color: aliceblue;
+
+    
+}
+#Part2>p{
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+
+}
+#websiteDetails{
+    width: 97%;
+    display: flex;
+    margin: auto;
+}
+#left_menu{
+    flex-wrap: wrap;
+    width: 25%;
+    cursor: pointer;
+
+    margin-left: 40px;
+}
+#landingPageNews{
+    width: 50%;
+    /* border: 1px solid red; */
+
+}
+#landingPageNews{
+    width: 50%;
+    border: 1px solid red;
+
+    height: auto;
+}
+#rightSide{
+    width: 25%;
+}
+#menu-item{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    width: 75%;
+}
+#menuList{
+    color:#313131; 
+    padding-left: 12px; 
+    font-size: 17.5px;
+}
+
+#menu-item:hover{
+    background-color:#ffde2f;
+}
+
+#footer{
+    margin-top: 25px;
+    background: #1c1c1c;
+    padding: 20px 0;
+    font-family: 'Roboto Slab',sans-serif;
+}
+.footer-content {
+    margin-top: 25px;
+    background: #1c1c1c;
+    padding-left: 12px;
+    font-family: 'Roboto Slab',sans-serif;
+}
+#container{
+    margin: 0 20px;
+}
+.footer-box {
+    border-bottom: 1px solid #3b3a3a;
+    /* padding-bottom: 10px; */
+    margin-bottom: 10px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+} 
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.dna-logo {
+    width: 190px;
+}
+.nav .nav-item {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 0;
+}
+a.nav-link {
+    color: #8e8e8e;
+    font-size: 14px;
+}
+.middile-footer-box {
+    margin-left: 0;
+    border-bottom: 1px solid #3b3a3a;
+    margin-bottom: 10px;
+}
+.middle-footer-txt {
+    display: contents;
+    padding-top: 20px;
+}
+.left-text {
+    width: 220px;
+}
+.middle-nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding-right: 15px;
+    gap: 15px;
+    color: hsl(0, 5%, 4%);
+}
+.left-text p {
+    font-size: 17px;
+    color: #8e8e8e;
+    margin: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.footer-box {
+    border-bottom: 1px solid #3b3a3a;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.final-footer-box {
+    width: 190px;
+    margin-top: 5px;
+    padding-left: 0;
+}
+.final-footer-box p {
+    font-size: 17px;
+    color: #8e8e8e;
+}
+.footer-end p {
+    font-size: 12px;
+    text-align: center;
+    color: #8e8e8e;
+    margin-bottom: 0;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+#headline_news{
+    width: 100%;
+}
+#next_page{
+    font-size: 20px;
+    font-weight: bold;
+}
