@@ -1,3 +1,5 @@
+
+    
 const data=[
     {
         img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524025-fotojet.jpg",
@@ -64,13 +66,15 @@ const data=[
         data.forEach(function (ele) {
     
             let div = document.createElement("div");
-    
+            let a = document.createElement("a")
+            a.href="details.html"
             let img = document.createElement("img");
             img.src = ele.img;
             let headline = document.createElement("p");
             headline.innerText = ele.headline;
            
-             div.append(img,headline);
+            a.append(img ,headline)
+             div.append(a);
              container.append(div);
     })  
     };
