@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #container1{
+            height: 100%;
+            width: 100%;
+        }
+        #heading>h2{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+            margin-top: 0px;
+           text-decoration: underline;
+           text-decoration-color: rgb(159, 159, 2);
+         margin-top: 10px;
+        }
+        #container{
+             width:fit-content;
+             display: block;
+        }
+         #container>div>a>img{
+            margin-left: -20px;
+            width:auto;
+            height:80px;
+         }
+         #hd{
+            font-size: 12px;
+         }
+         #container>div>a{ 
+            display:flex;
+            margin-top: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+         #container>div>a>p{
+            margin-top: 5px;
+            font-size: 17px;
+            margin-left: 10px;
+         }
+         a{
+            text-decoration: none;
+            color: black ;
+         }
+        #btn{
+           margin-left : 42% ;
+           font-weight: bold;
+           margin-top: 20px;
+           width: 200px;
+           height: 30px;
+           border-radius: 10px;
+           font-size: 20px;
+        }
+        #arrow{
+            display: flex;
+            font-size: 12px;
+            gap: 10px;
+            padding-bottom: 0;
+        }
+        
+     </style>
+     <link rel="stylesheet" href="../navbarStyle/navbar_style.css">
+</head>
+<body>
+   <div id="NavbarDNA"></div>
+
+   <div id="slide">
+       <div id="Part1">
+           <p>Top News</p> 
+           </div>
+           <div>
+               <p id="Part2"></p>
+           </div>
+        </div>
+   <div id="websiteDetails">
+     <div id="left_menu"></div>
+     <div id="landingPageNews">
+      <div id="container1">
+         <div id="arrow">
+            <div><a href="../index.html">Home</a></div>   
+            <div> >> </div>
+            <div><a href="./sport.html">Sport</a></div>
+        </div> 
+        <div id="heading">
+            <h2>SPORTS</h2>
+        </div>
+            <div id="container" > </div>
+            <button id="btn">More News</button>
+    </div>
+       </div>
+      <div id="rightSide">
+          
+     </div>
+     </div>
+   </div>
+   <div id="footer"></div> 
+</body>
+</html>
+<script src="sport.js" type="module"></script>
