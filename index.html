@@ -48,7 +48,37 @@
             font-weight: 700;
             display: block;
             text-align: center;
+            
         }
+
+        #container>div>a>img{
+            margin-left: -20px;
+            width:auto;
+            height:80px;
+         }
+
+         #container{
+             width:fit-content;
+             display: block;
+        }
+         #container>div>a>img{
+            margin-left: -20px;
+            width:auto;
+            height:80px;
+         }
+         #hd{
+            font-size: 12px;
+         }
+         #container>div>a{ 
+            display:flex;
+            margin-top: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+         #container>div>a>p{
+            margin-top: 5px;
+            font-size: 17px;
+            margin-left: 10px;
+         }
     </style>
 </head>
 <body>
@@ -74,7 +104,11 @@
             <h1>LATEST NEWS</h1>
             <hr>
         </div>
-
+        <div id="heading">
+            <h2>SPORTS</h2>
+        </div>
+            <div id="container" > </div>
+            <button id="btn">More News</button>
       </div>
       <div id="rightSide">
            
@@ -87,5 +121,6 @@
 <script src="index.js" type="module">  
 </script>
 <script src="./latest_news.js"></script>
+<script src="./sport page/sportdata.js"></script>
 
 
