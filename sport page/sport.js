@@ -197,7 +197,6 @@ setInterval(function(){
 }
 slideshow()    
 
-
 const data=[
     {
         img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524025-fotojet.jpg",
@@ -253,7 +252,33 @@ const data=[
     {
         img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2524059-fotojet-4.jpg",
         headline:"Sumit Nagal returns to Indian Davis Cup team, Divij Sharan dropped"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/24/2524656-eldhose-paul-anurag-thakur-twitter.jpg",
+        headline:" World Athletics Championships 2022: Triple jumper Eldhose Paul comes 9th in final event"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524653-ars-vs-che.jpg",
+        headline:"Arsenal vs Chelsea, pre-season friendlies 2022: Live streaming, ARS vs CHE dream11, where to watch"
+    },
+    {
+       
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524647-rma-vs-bar.jpg",
+        headline:"Real Madrid vs Barcelona, El Clasico 2022: Live streaming, RMA vs BAR dream11, where to watch"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524630-vince.jpg",
+        headline:"WWE supremo Vince McMahon retires amid sexual misconduct allegations, see how wrestlers reacted"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524590-bcci.jpg",
+        headline:"18 crore spent on Tokyo Olympics: Details of BCCI's non-cricketing expenses for past 2 years"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524606-fotojet.jpg",
+        headline:"IND vs WI 2nd ODI Dream11 prediction: Fantasy cricket tips for India vs West Indies in Trinidad"
     }
+
     ];
 
     
