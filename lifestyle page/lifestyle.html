@@ -5,57 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   
+
     <style>
         #container1{
             height: 100%;
             width: 100%;
-            /* border:1px solid black  */
         }
         #heading>h2{
             font-family: 'Courier New', Courier, monospace;
             font-size: 20px;
+            margin-top: 0px;
            text-decoration: underline;
            text-decoration-color: rgb(159, 159, 2);
-            text-align: center; 
-           margin-right: 365px;
-           
+         margin-top: 10px;
         }
         #container{
-                /* border:1px solid black;    */
-             width:40%;
+             width:fit-content;
              display: block;
-             margin-left: 30%;
         }
          #container>div>a>img{
-            width:150px;
+            margin-left: -20px;
+            width:auto;
             height:80px;
          }
          #hd{
-          margin: 50px 365px 0px 0px;
-
-             text-align: center; 
             font-size: 12px;
-
-
          }
-         #container>div>a{
+         #container>div>a{ 
             display:flex;
-               /* border:1px solid rgb(202, 38, 38);    */
             margin-top: 10px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
          }
          #container>div>a>p{
-            margin-top: -2px;
-            font-size: small;
-            
+            margin-top: 5px;
+            font-size: 17px;
+            margin-left: 10px;
          }
          a{
             text-decoration: none;
             color: black ;
          }
         #btn{
-           margin-left : 42% ;
+           margin-left : 30% ;
            font-weight: bold;
            margin-top: 20px;
            width: 200px;
@@ -63,18 +54,49 @@
            border-radius: 10px;
            font-size: 20px;
         }
+        #arrow{
+            display: flex;
+            font-size: 12px;
+            gap: 10px;
+            padding-bottom: 0;
+        }
         
      </style>
+     <link rel="stylesheet" href="../navbarStyle/navbar_style.css">
 </head>
 <body>
-    <div id="container1">
-         <div id="hd" ><a >Home</a>>><a href="lifestyle.html">lifestyle</a></div>  
+   <div id="NavbarDNA"></div>
+
+   <div id="slide">
+       <div id="Part1">
+           <p>Top News</p> 
+           </div>
+           <div>
+               <p id="Part2"></p>
+           </div>
+        </div>
+   <div id="websiteDetails">
+     <div id="left_menu"></div>
+     <div id="landingPageNews">
+      <div id="container1">
+         <div id="arrow">
+            <div><a href="../index.html">Home</a></div>   
+            <div> >> </div>
+            <div><a href="lifestyle.html">lifestyle</a></div>
+        </div> 
         <div id="heading">
-            <h2>lifestyle</h2>
+            <h2>LIFESTYLE</h2>
         </div>
             <div id="container" > </div>
             <button id="btn">More News</button>
     </div>
+       </div>
+      <div id="rightSide">
+          
+     </div>
+     </div>
+   </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="lifestyle.js"></script>
+<script src="lifestyle.js" type="module"></script>

@@ -199,7 +199,6 @@ slideshow()
 const data = [
     {
         img : "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523991-fraud.jpg",
-
         headline: "Indian 'Tinder Swindler': Andhra Pradesh man marries 13 women in 4 years, arrested"
 
     },
@@ -248,6 +247,26 @@ const data = [
         img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/19/2523519-hawaii.jpg",
         headline :"Giant wall-like waves crash seaside Hawaii wedding, WATCH chilling video with more than 8 million views"
     },
+    {
+    img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524632-untitled-design-62.png",
+    headline:"Two boys fighting cancer get dream fulfilled by Bengaluru police; leaves netizens teary-eyed"
+    },
+    {
+        img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524628-2518707-irfan-pathan.jpg",
+        headline:"#ReleaseIrfanPathan trends on Twitter and everyone has the same response"
+    },
+    {
+    img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524579-untitled-design-94.png",
+    headline:"Odia actor Babushaan Mohanty, wife's public brawl over actress Prakruti Mishra goes viral"
+     },
+    {
+    img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/23/2524458-ed-rain-wb.jpg",
+     headline:"Viral Photos: Mountain of cash from West Bengal after ED raids minister's close aide"
+    },
+    {
+    img:"https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/22/2524382-untitled-design-44.png",
+    headline:"Uttar Pradesh cop starts his own school for underprivileged children after seeing the parents begging"
+    }
 ];
 
 function append(data) {
