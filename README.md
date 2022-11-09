@@ -6,4 +6,4 @@ Rupesh>Sports,viralnews,lifestyle;
 Afzal>Business,World,ezmall;
 
 
-Website:- dna-news.netlify.app
+<a href="https://dna-news.netlify.app/">Website:- https://dna-news.netlify.app/</a>
